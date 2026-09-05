@@ -1,0 +1,32 @@
+{
+  "name": "resumeforge",
+  "version": "1.0.0",
+  "description": "GitHub App that automatically generates professional resumes from GitHub profiles. One-time $10 purchase.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "npm run lint && npm test"
+  },
+  "keywords": [
+    "github",
+    "resume",
+    "generator",
+    "github-app",
+    "profile"
+  ],
+  "author": "Edwin Wanjiku",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erwinmustapha5-lab/resumeforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erwinmustapha5-lab/resumeforge/issues"
+  },
+  "homepage": "https://github.com/erwinmustapha5-lab/resumeforge#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
